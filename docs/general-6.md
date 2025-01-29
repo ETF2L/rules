@@ -58,6 +58,7 @@ If you are unsure about the legality of any sneaky spot on a map, please contact
 Any kind of cheats are not permitted. Players who are found guilty of using cheats or game exploits or illegal scripts or modifications categorized as cheats (see “6.1. Bug-Using is not allowed”, “6.3. Scripts” and “6.4. Game Modifications” for some examples) anywhere in TF2 will be banned from all ETF2L competitions according to the following:
 
 – First Time: 4 Years
+
 – Second Time: Permanent Ban
 
 ETF2L league bans for Team Fortress 2 VACs count as a cheating ban. Players who attempt to evade their cheating or VAC ban on ETF2L will receive a permanent ban.
