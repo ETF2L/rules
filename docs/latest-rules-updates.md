@@ -6,6 +6,71 @@ title: Latest Rule Changes
 
 All recent rule changes will be documented on this page.
 
+## 28.01.2025
+
+### 6.2. Cheats are not allowed
+
+Any kind of cheats are not permitted. Players who are found guilty of using cheats or game exploits or illegal scripts or modifications categorized as cheats (see “6.1. Bug-Using is not allowed”, “6.3. Scripts” and “6.4. Game Modifications” for some examples) anywhere in TF2 will be banned from all ETF2L competitions according to the following:
+
+– First Time: **4** Years
+– Second Time: Permanent Ban
+
+ETF2L league bans for Team Fortress 2 VACs count as a cheating ban. Players who attempt to evade their cheating or VAC ban on ETF2L will receive a permanent ban.
+
+There is no appeal process for cheating bans. ETF2L league bans for Team Fortress 2 VACs count as a cheating ban. Players who attempt to evade their cheating or VAC ban on ETF2L will receive a permanent ban. This ban may be appealed if the conditions of [[6.2.1 Permanent Cheating Ban Appeals](/docs/general-6#621-permanent-cheating-ban-appeals)] are met.
+
+Example situation:
+**A player is caught cheating by the Anti-Cheat staff and is banned from ETF2L for 4 years. Should a player receive a TF2 VAC during their active ban time or after the unban they will be permanently banned from all ETF2L competitions.**
+
+### 6.5. VAC Bans
+
+As of January 28th 2025, any player with a VAC ban on the Source engine **will be banned for four years**. This rule also applies to any alternate accounts. Players with VAC bans that do not apply to Team Fortress 2 will not be affected.
+Multiple VACs on the same Steam account will result in a **four** year ban or a ban extension until **four** years after the most recent VAC ban, unless ETF2L receives proof which VAC affects (or does not affect) Team Fortress 2.
+Please contact the Anti-Cheat team on ETF2L’s [[ETF2L’s Discord server](https://discord.etf2l.org/)] to clarify the situation as soon as possible if you want to avoid a potential league ban.
+
+### 6.5.1 Multiple Team Fortress 2 VAC Bans
+
+Any player that receives another Team Fortress 2 VAC ban while already having been ETF2L league banned for **a TF2 VAC or cheating ban before** will receive a permanent ban.
+
+---
+
+## 16.01.2025
+
+**Modified:**
+
+### 6.3. Scripts
+
+Scripts that allow a player to perform an action in-game that they would not be able to execute without the script, or scripts that purposefully disrupt the player’s hitbox are banned. Scripts that freeze or glitch the player model (e.g. in mid-air to be less predictable) to make it harder to hit are also banned.
+
+Usage of banned scripts will be penalized on a case-by-case basis, depending on the intent of the script and the impact on the match. Possible penalties may include team warnings, forfeiting of one or more match rounds or default losses, **and / or league bans for the offending player**.
+
+- Examples of banned scripts:
+  - Charge-turn script (this includes the use of other peripherals to achieve sharper turn angles)
+  - Panic spinning script
+  - Freeze-glitching via spamming hud_reloadscheme
+  - Scripts that enhance a player’s sense of hearing (also see 6.4 under sound file manipulations)
+  - **Jumpbug related scripts/binds of any sort**
+  - **1-Tick c-tap scripts/binds of any sort**
+
+```code
+  1-Tick c-tap example: 
+  alias "+ctap" "+duck 1; -duck 1; +jump 1; -jump 1"
+  alias "-ctap" "" 
+  bind "mouse2" "+ctap"
+```
+
+- Examples of allowed scripts:
+  - Duck-jump script
+  - Null-cancelling movement script
+  - Rocket/Detonator jump script
+  - Übercharge mask script
+  - Team say scripts
+  - Medic radar script
+  - Loadout changing scripts and quick respawn scripts
+  - Viewmodel and crosshair switch scripts
+
+If you are unsure about the legality of a particular script, please contact an admin on [[ETF2L’s Discord server](https://discord.etf2l.org/)] to clarify the situation before using said script in an official match.
+
 ---
 
 ## 22.03.2024

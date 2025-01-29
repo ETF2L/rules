@@ -4,7 +4,7 @@ title: Latest Config Changes
 
 ## Config Updates
 
-All recent Config Updates will be documented on this page.
+All recent Config Updates will be documented on the github.
 
 ### ETF2L Gameserver Config GitHub
 
@@ -14,7 +14,7 @@ All recent Config Updates will be documented on this page.
 ### Config Changes Prior 2022
 
 Updates prior the use of our [GitHub](https://github.com/ETF2L/gameserver-configs/) can be viewed [here](https://etf2l.org/latest-rules-configs-updates/).
-
+<!-- 
 ---
 
 ## 1.0.16 (25.05.2024)
@@ -197,4 +197,4 @@ Initial GitHub release.
 - feat: add `sm_empty_active_ubercharges_when_dropped 1`
 - refactor: change `sm_override_pipe_size` to `4.0`
 
-[GitHub](https://github.com/ETF2L/gameserver-configs/releases/tag/1.0.0)
+[GitHub](https://github.com/ETF2L/gameserver-configs/releases/tag/1.0.0) -->
