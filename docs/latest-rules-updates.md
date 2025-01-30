@@ -91,7 +91,7 @@ General Rules:
 
 6v6 and Highlander Rules:
 
->### 1.3.3. Default mercenary [[6v6](/docs/6v6-1#133-default-mercenary)] [[HL](/docs/9v9-1#133-default-mercenary)]
+>### 1.3.3. Default mercenary [[6v6](/docs/6v6-1#132-default-mercenary)] [[HL](/docs/9v9-1#133-default-mercenary)]
 >
 >![Division 1](/img/d1.png)
 >![Division 2](/img/d2.png)
