@@ -185,38 +185,22 @@ Give them the time they might need and be patient and respectful.
 
 ### 3.5 Useful Links
 
-- [callout.tf](http://callout.tf/)"
-    … for a list of callouts.
-- [trends.tf](http://trends.tf/)
-    … shows a players total stats.
-- [demos.tf](http://demos.tf/)
-    … for downloading demo files.
-- [logs.tf](http://logs.tf/)
-    … for logs of specific games.
-- [more.tf](http://more.tf/)
-    … for a more modern trends.tf experience.
-- [ETF2L discord server](https://discord.etf2l.org/)
-    … for getting scrims, mercenaries, mentors and admin help.
-- [teamfortress.tv](http://teamfortress.tv/)
-    … for all sorts of threads concerning competitive Team Fortress 2.
-- [ETF2L rules](https://rules.etf2l.org/)
-    … important to read to understand how to play
-- [ETF2L website](https://etf2l.org/)
-    … for recruitment posts, team management and signing up for a season.
-- [ETF2L FAQ](https://etf2l.org/faq/)
-    … for any further questions not covered by this guide.
-- [passtime.tf](http://passtime.tf/)
-    … for information about the pastime format.
-- [tempus network](https://tempus2.xyz/)
-    … for improving your jumping skills on soldier or demoman on specialized maps.
-- [jumpacademy.tf](http://jumpacademy.tf/)
-    … an alternative to the tempus network
-- [mastercomfig](https://mastercomfig.com/)
-    … for optimizing your game
-- [comp.tf](http://comp.tf/)
-    … for general competitive information and guides.
-- [tf2center](https://tf2center.com/)
-    … for quickly playing competitive without voice channels.
+- [callout.tf](http://callout.tf/)" -  for a list of callouts.
+- [trends.tf](http://trends.tf/) - shows a players total stats.
+- [demos.tf](http://demos.tf/) -  for downloading demo files.
+- [logs.tf](http://logs.tf/) -  for logs of specific games.
+- [more.tf](http://more.tf/) - for a more modern trends.tf experience.
+- [ETF2L discord server](https://discord.etf2l.org/) - for getting scrims, mercenaries, mentors and admin help.
+- [teamfortress.tv](http://teamfortress.tv/) -  for all sorts of threads concerning competitive Team Fortress 2.
+- [ETF2L rules](https://rules.etf2l.org/) -  important to read to understand how to play
+- [ETF2L website](https://etf2l.org/) - for recruitment posts, team management and signing up for a season.
+- [ETF2L FAQ](https://etf2l.org/faq/) - for any further questions not covered by this guide.
+- [passtime.tf](http://passtime.tf/) - for information about the pastime format.
+- [tempus network](https://tempus2.xyz/) - for improving your jumping skills on soldier or demoman on specialized maps.
+- [jumpacademy.tf](http://jumpacademy.tf/) -  an alternative to the tempus network
+- [mastercomfig](https://mastercomfig.com/) - for optimizing your game
+- [comp.tf](http://comp.tf/) - for general competitive information and guides.
+- [tf2center](https://tf2center.com/) - for quickly playing competitive without voice channels.
 
 ## 4.Terminology
 
@@ -614,10 +598,10 @@ Each format has it’s own server config that must be loaded before you begin pl
 You either select the correct on serveme.tf or manually type “!rcon exec \<config>” .
 The important ETF2L official configs are:
 
-- etf2l_6v6_5cp … for 6s 5cp
-- etf2l_6v6_koth … for 6s koth
-- etf2l_9v9_stopwatch … for Highlander payload
-- etf2l_9v9_koth … for Highlander koth
+- etf2l_6v6_5cp - for 6s 5cp
+- etf2l_6v6_koth - for 6s koth
+- etf2l_9v9_stopwatch - for Highlander payload
+- etf2l_9v9_koth - for Highlander koth
 
 ### 4.81 Pickups
 
