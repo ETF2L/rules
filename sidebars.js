@@ -44,7 +44,8 @@ module.exports = {
       items: [
         'server-configs',
         'latest-rules-updates',
-        'latest-config-updates'
+        'latest-config-updates',
+        'newcomer-guide'
       ]
     }
   ],
