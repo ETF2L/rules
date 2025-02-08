@@ -75,6 +75,12 @@ module.exports = {
           position: 'left',
         },
         {
+          to: 'docs/newcomer-guide',
+          activeBasePath: 'docs',
+          label: 'Newcomer Guide',
+          position: 'right',
+        },
+        {
           to: 'docs/latest-rules-updates',
           activeBasePath: 'docs',
           label: 'Latest Rule Changes',
