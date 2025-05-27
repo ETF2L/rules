@@ -1,5 +1,5 @@
 ---
-title: 6. Cheats & Scripts 
+title: 6. Cheats & Scripts
 ---
 ---
 
@@ -14,6 +14,8 @@ Some cases are easier to evaluate than others when it comes to the direct impact
 - Examples:
   - Someone using a panic script in the spawn room once in an official versus someone doing it to taunt the enemy team after each round win versus someone using it multiple times in front of opposing players in a fight, making themselves harder to hit.
   - A Sniper using a transparent scope the entire match versus a Medic off-classing as a Sniper, using it only in pre-game.
+  - Overriding cooldowns on consumable weapons to enable them to be consumed quicker than intended.
+  - Use of binds that enable faster than intended weapon switch speeds
 
 Some exploits, modifications or scripts may give a constant advantage throughout the entire match, making their impact more indirect, thus using those will more likely lead to an immediate punishment rather than just a team/player warning. Furthermore, someone who is repeatedly installing and uninstalling a modification/script is not likely able to claim they were not aware of it. Ignorance of our rules is not an excuse either.
 With regard to an unusual bug, script or modification we advise players to use common sense and ask the ETF2L staff before using it in any TF2 match.
@@ -95,11 +97,17 @@ Usage of banned scripts will be penalized on a case-by-case basis, depending on 
   - Scripts that enhance a player’s sense of hearing (also see 6.4 under sound file manipulations)
   - Jumpbug related scripts/binds of any sort
   - 1-Tick c-tap scripts/binds of any sort
+  - Charge-turn scripts and binds that enable smoother turning, a radius of turn not otherwise possible and or tighter control of your turns. This includes but is not limited to:
+    - The use of peripherals to achieve sharper turn angles
+    - Use of m_filter 1 to enable smoother/sharper turns
+    - Use of binds or scripts that alter your FPS cap mid-game to enable smoother/sharper turns
+    - Any form of stackturning
+  - Commands that cause artificial waits. As example:
 
 ```code
-  1-Tick c-tap example: 
+  1-Tick c-tap:
   alias "+ctap" "+duck 1; -duck 1; +jump 1; -jump 1"
-  alias "-ctap" "" 
+  alias "-ctap" ""
   bind "mouse2" "+ctap"
 ```
 
@@ -131,6 +139,8 @@ Players who are caught using banned modifications in ETF2L officials, scrims, PU
   - **Making footstep sounds more audible at all times („metal footsteps“)**
   - Oversized healing particles
   - **Switching sound files for rocket or grenade launchers or other weapons (e.g. using the stock Rocket Launcher’s sound with the Original or vice versa) is allowed as long as the modification has no impact on detecting other players or gameplay situations. We strongly recommend asking staff before replacing any sound files with custom sounds.**
+  - **Any method that uses an external executable, program, script, and/or attachments to TF2 to replace textures, player and map models, particle effects, etc.**
+  - **Using LOD tweaks to enable greater visibility for stickybombs**
 
 Modifications marked in bold will be punished with cheating bans if used anywhere in TF2 (see [6.2.](#62-cheats-are-not-allowed)). We advise all players to remove any of the modifications above from their game files in order to prevent reports and misunderstandings, even if the intent is to only use them outside of competitive TF2.
 
@@ -170,4 +180,6 @@ for the offending team.
 
 It is prohibited to alter or mask your in-game ping in official matches. Players found manipulating their ping may be punished by a Minor Warning.
 
-Private messages and friend requests on Steam etc. do not have to be acknowledged by our admin staff.
+## 6.8. Interp limitations
+
+It is prohibited to use interp settings that go above the 0.1 (100) threshold. This also includes using binds/scripts to alter your interp settings mid game.
