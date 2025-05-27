@@ -29,7 +29,7 @@ The usage of servers with abnormal settings may be refused for matches by the le
 
 ## 5.4. Servers must be started with “-sv_pure”
 
-Match servers must have the parameter “-sv_pure” or “-sv_pure 2” in their launch options to support the sv_pure setting. The sv_pure Console Variable (ConVar) must be set to 2 in all ETF2L competitions.
+Match servers must have the parameter “-sv_pure” or “-sv_pure 2” in their launch options to support the sv_pure setting. The sv_pure Console Variable (ConVar) must be set to 2 in all ETF2L competitions. Any mods that bypass the sv_pure settings during ETF2L official matches are strictly not allowed.
 
 ---
 

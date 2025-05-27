@@ -110,7 +110,7 @@ Committing or supporting the act of fraud is strictly forbidden. This includes, 
 
 ## 1.8. Disruption of ETF2L and its services is strictly forbidden
 
-Causing disruption to ETF2L (i.e. the ETF2L website, ETF2L matches and any other service run by ETF2L) is strictly forbidden. This includes, but is not limited to:  
+Causing disruption to ETF2L (i.e. the ETF2L website, ETF2L matches and any other service run by ETF2L) is strictly forbidden. This includes, but is not limited to:
 
 - Intentionally connecting to an in-game server during an ongoing match.
 - Tampering with server settings to disrupt or create an advantage for a team.
@@ -137,4 +137,4 @@ Naturally, the usage of alternate accounts or other people as betting proxies is
 
 ## 1.10. Team and Player Sponsorships
 
-Any reference to gambling websites or content unsafe for minors is forbidden. This includes: Player Names, Player Tags, Team Tags, Team Names, Team Profile Pictures and any other content on this platform.
+Any reference to gambling websites, cheating platforms/services or content unsafe for minors is forbidden. This includes: Player Names, Player Tags, Team Tags, Team Names, Team Profile Pictures and any other content on any ETF2L platform.
