@@ -137,4 +137,4 @@ Naturally, the usage of alternate accounts or other people as betting proxies is
 
 ## 1.10. Team and Player Sponsorships
 
-Any reference to gambling websites, cheating platforms/services or content unsafe for minors is forbidden. This includes: Player Names, Player Tags, Team Tags, Team Names, Team Profile Pictures and any other content on any ETF2L platform
+Any reference to gambling websites, cheating platforms/services or content unsafe for minors is forbidden. This includes: Player Names, Player Tags, Team Tags, Team Names, Team Profile Pictures and any other content on any ETF2L platform.

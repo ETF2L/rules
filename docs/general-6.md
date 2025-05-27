@@ -182,4 +182,4 @@ It is prohibited to alter or mask your in-game ping in official matches. Players
 
 ## 6.8. Interp limitations
 
-It is prohibited to use interp settings that go above the 0.1 (100) threshold. This also includes using binds/scripts to alter your interp settings mid game.
+It is prohibited to use interp settings that go above the 0.1 (100) threshold. This also includes using binds/scripts to alter your interp settings mid game above the allowed threshold.
