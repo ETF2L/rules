@@ -1,0 +1,30 @@
+name: scan
+
+on:
+  schedule:
+    # Scan the image regularly (once a day)
+    - cron: '45 03 * * *'
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Scan current image & report results
+    runs-on: "ubuntu-24.04"
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Run Trivy vulnerability scanner
+        uses: aquasecurity/trivy-action@0.31.0
+        with:
+          image-ref: "ghcr.io/etf2l/rules"
+          format: 'sarif'
+          output: 'trivy-results.sarif'
+          severity: 'CRITICAL,HIGH'
+          vuln-type: "os"
+          timeout: '15m0s'
+
+      - name: Upload Trivy scan results to GitHub Security tab
+        uses: github/codeql-action/upload-sarif@v3
+        with:
+          sarif_file: 'trivy-results.sarif'
