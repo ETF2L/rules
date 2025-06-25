@@ -38,8 +38,12 @@
       "last 1 safari version"
     ]
   },
-  "overrides": {
+  "resolutions": {
     "braces": "3.0.3",
-    "micromatch": "4.0.8"
+    "micromatch": "4.0.8",
+    "webpack-dev-server": "5.2.1",
+    "http-proxy-middleware": "2.0.9",
+    "estree-util-value-to-estree": "3.3.3",
+    "brace-expansion": "1.1.12"
   }
 }
