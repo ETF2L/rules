@@ -3,7 +3,11 @@ on:
   push:
     paths-ignore:
       - '**.md'
-    
+permissions:
+  contents: read
+  packages: read
+  pull-requests: read
+
 jobs:
   hadolint:
     runs-on: "ubuntu-24.04"
