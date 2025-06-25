@@ -3,7 +3,7 @@ run-name: Build Docker image, push it and deploy
 permissions:
   contents: read
   packages: write
-  pull_requests: write
+  pull-requests: write
 on:
   workflow_dispatch:
   push:
