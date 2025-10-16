@@ -5,7 +5,11 @@ module.exports = {
   url: 'https://rules.etf2l.org',
   baseUrl: '/',
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    }
+  },
   favicon: 'img/favicon.ico',
   organizationName: 'etf2l',
   projectName: 'rules',
