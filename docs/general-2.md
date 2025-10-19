@@ -117,11 +117,29 @@ A player caught trying to get a false Flag/Nationality change won’t be able to
 ---
 
 ## 2.7. Player Experience
+Player experience determines both default mercenary and late joiner eligibility.
+A player’s experience is based on their current team in the active season, or their highest division played in the last 3 active seasons, whichever is higher.
+A season is "active" if the player has played at least 3 matches.
+Participation in higher tiers counts toward that tier and below.
+Playoff matches count toward the tier above; 3+ playoff matches or a Grand Final appearance counts as one full tier higher.
+A player’s experience in one gamemode is considered one tier lower when applied to the other gamemode. 
+Examples of cross-gamemode experience:
+  - Last 3 seasons: HL Mid, 6s Low, HL Mid → counts as HL Mid and 6s Low
+  - Last 3 seasons: HL D2, 6s Low, HL Mid → counts as HL D2 and 6s Mid
+  - Last 3 seasons: HL Open, 6s Mid, 6s Mid → counts as HL Low and 6s Mid
 
-A players experience is determined by their last 3 active seasons in both 6v6 and Highlander gamemodes. A season counts as a “active season” if the player played at least 3 matches of the same tier in that season.
+For the lowest tiers (Open/Fresh/Division 6) matches played from all seasons count towards player experience.
+Experience in other leagues (RGL, ozfortress, AsiaFortress, etc.) also counts and must be disclosed in relevant situations. Failure to disclose may result in removal from a team or withdrawn merc permissions.
+Cups (pre-season, one-day cups, Nations Cup, etc.) do not count toward experience.
+**A player’s past experience from last 3 active seasons decays by one division for every two full years since the last official in the season it was earned. The lowest possible tier after decay is Low/D5**.
+Decay progression is based on the tier set of the division originally played:
+  - Premiership → D1 → D2 → D3 → D4 → D5
+  - High → Mid → Low
+  - Note: High = D1/D2, Mid = D3/D4, Low = D5, so if a player decays from D1 → D2 they would still count as High.
 
-Playoffs matches in any tier count towards the tier above. 3 playoff matches or participation in a Grand Final of any tier will automatically count the player as a tier above the tier those matches were played in. For Premiership Grand Finals, this will also count towards player experience and count as it’s own tier above Premiership.
+Examples of decay:
+- Player played D1 four years ago → counts as D3/Mid (D1 decays twice: D1 → D2 → D3).
+- Player played D3 two years ago → counts as D4/Mid (D3 decays once: D3 → D4).
+- Player played High eight years ago → counts as D5/Low (High decays twice and not further: High → Mid → Low).
+- Player played Premiership six years ago and Low last season → counts as D3/Mid (Premiership decays three times: Prem → D1 → D2 → D3).
 
-For the lowest tier played in a season, matches played from all seasons count towards player experience.
-
-Note: Cups (pre-season cups, one-day cups, nations cup etc.) do not count towards a players experience. Highlander and 6v6 experience are valued equally between gamemodes.
