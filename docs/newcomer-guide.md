@@ -184,7 +184,7 @@ Be aware that community members and contributors are doing their respective work
 
 ### 3.5 Useful Links
 
-- [callouts.tf](http://callout.tf/) -  for a list of callouts.
+- [callouts.tf](http://callouts.tf/) -  for a list of callouts.
 - [trends.tf](http://trends.tf/) - shows a players total stats.
 - [demos.tf](http://demos.tf/) -  for downloading demo files.
 - [logs.tf](http://logs.tf/) -  for logs of specific games.
