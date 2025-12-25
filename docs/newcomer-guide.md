@@ -178,9 +178,9 @@ Of course you can play games at other times, but these usually will only be mixe
 In ETF2L, admins will issue bans for racism, homophobia, harassment, cheating and so on even outside of official games.
 Specific rules can be found under the ETF2L rules page.
 
-### 3.4 Behaviour towards community members and contributors
+### 3.4 Behaviour towards community members
 
-Be aware that community members and contributors are doing their respective work voluntarily are not payed workers and do their work in their free time.
+Be aware that community members are doing their respective work voluntarily, unpayed and in their free time.
 
 ### 3.5 Useful Links
 
