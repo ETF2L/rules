@@ -178,14 +178,13 @@ Of course you can play games at other times, but these usually will only be mixe
 In ETF2L, admins will issue bans for racism, homophobia, harassment, cheating and so on even outside of official games.
 Specific rules can be found under the ETF2L rules page.
 
-### 3.4 Behaviour towards admins and mentors
+### 3.4 Behaviour towards community members
 
-Be aware that both league admins and mentors are doing their respective work voluntarily and don’t owe you anything.
-Give them the time they might need and be patient and respectful.
+Be aware that community members are doing their respective work voluntarily, unpayed and in their free time.
 
 ### 3.5 Useful Links
 
-- [callout.tf](http://callout.tf/)" -  for a list of callouts.
+- [callouts.tf](http://callouts.tf/) -  for a list of callouts.
 - [trends.tf](http://trends.tf/) - shows a players total stats.
 - [demos.tf](http://demos.tf/) -  for downloading demo files.
 - [logs.tf](http://logs.tf/) -  for logs of specific games.
@@ -374,9 +373,8 @@ The ETF2L divisions are:
 
 - Open
 - Low
-- Mid (division 4/division 3)
-- Division 2
-- Division 1
+- Mid (Division 4 / Division 3)
+- High (Division 2 / Division 1)
 - Premiership
 
 Even with lots of experience in casual or Valve Competitive, it’s advised to start in open due to community competitive being very different to what valve gave you.
@@ -412,7 +410,7 @@ The 4th division of ETF2L. Together with division 3 this forms mid.
 
 The 3rd division of ETF2L. Together with division 4 this forms mid.
 
-### 4.42 Division high
+### 4.42 Division High
 
 This division is split into division 2 and division 1 usually.
 
@@ -560,19 +558,23 @@ This gets used when watching official games or for streamers.
 
 ### 4.72 RGL
 
-The North American Team Fortress 2 league.
+The North American Team Fortress 2 league.  
+Their website can be found [here](https://rgl.gg).
 
 ### 4.73 ozfortress
 
-The Oceania's Premier Competitive Team Fortress 2 league.
+The Oceania's Premier Competitive Team Fortress 2 league.  
+Their website can be found [here](https://ozfortress.com).
 
 ### 4.74 Asia Fortress
 
-The asian competitive Team Fortress 2 league.
+The asian competitive Team Fortress 2 league.  
+Their website can be found [here](https://www.asiafortress.com).
 
-### 4.75 Map Picks
+### 4.75 Map Picks / "Pick Bans"
 
-In official ETF2L matches, teams will need to pick/ban maps before they play. The process is explained here.
+In ETF2L matches, teams will sometimes need to pick/ban maps before they play. The process is explained [here](https://rules.etf2l.org/docs/general-3/#311-picks--bans-matches).  
+Playoffs always use map picks, for the regular season games, this is subject to change. Check the competition page for more information on the current season and its ruling.
 
 ### 4.76 Sandbagging
 
@@ -624,4 +626,4 @@ This guide was written by labricecat, with help from:
 roooc - spelling/phrasing
 
 For feedback message labricecat on discord.
-Last updated: 23th January 2025.
+Last updated: 9th of December, 2025.
