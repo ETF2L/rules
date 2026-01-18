@@ -15,6 +15,16 @@ All players participating in matches must be registered on ETF2L. Using a player
 
 ETF2L does not support any form of harassment of its players. People harassing others based on ethnicity, culture, religion or similar examples will get punished for their actions. We understand that things can get heated within a competitive game and we handle cases with this in mind. We ask you to remain as civil as possible when it comes to situations like this and to treat others with respect.
 
+### 1.1.3. Misconduct
+
+ETF2L takes a zero tolerance policy towards any form of misconduct involving minors in the community as well as extreme misconduct involving any community members. We will not tolerate any breaking of these rules regardless of country. This rule encompasses both ETF2L official platforms as well as activities off platform in extreme cases. These rules include but are not limited to:
+
+- Physical activity involving a minor
+- Depicting minors in sexually explicit ways on the ETF2L platform (No matter what format i.e text, image, video, etc)
+- Depicting minors in explicit ways in the form of extreme violence, gore or general NSFW content (No matter what format i.e text, image, video, etc)
+- Grooming/blackmail involving a minor
+- We heavily encourage anyone who experiences this behavior outside of ETF2L to first and foremost report it to the appropriate authorities as well as the platform owners. ETF2L misconduct reports & bans are not a substitute for law enforcement.
+
 ---
 
 ## 1.2. ETF2L Timezone = CET/CEST
