@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "3.10.2",
-    "@docusaurus/types": "3.10.2"
+    "@docusaurus/types": "3.10.0"
   },
   "browserslist": {
     "production": [
@@ -41,14 +41,18 @@
   "overrides": {
     "webpackbar": "^7.0.0",
     "follow-redirects": "1.16.0",
-    "ws": "8.21.0",
-    "@babel/plugin-transform-modules-systemjs": "7.29.7",
+    "ws": "8.21.1",
+    "@babel/plugin-transform-modules-systemjs": "8.0.1",
     "node-forge": "1.4.0",
-    "fast-uri": "3.1.2",
+    "fast-uri": "4.1.1",
     "brace-expansion": "1.1.15",
-    "qs": "6.15.2",
-    "uuid": "14.0.0",
-    "postcss": "8.5.15",
-    "serialize-javascript": "7.0.5"
+    "qs": "6.15.3",
+    "uuid": "14.0.1",
+    "postcss": "8.5.24",
+    "serialize-javascript": "7.0.7",
+    "shell-quote": "1.10.0",
+    "websocket-driver": "0.7.5",
+    "svgo": "4.0.2",
+    "js-yaml": "5.2.2"
   }
 }
