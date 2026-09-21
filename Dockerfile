@@ -1,4 +1,4 @@
-FROM node:lts-alpine AS build
+FROM node:26 AS build
 WORKDIR /usr/src/app
 COPY package*.json ./
 RUN npm install
@@ -7,20 +7,12 @@ RUN npm run build
 
 # Deployment step
 
-FROM busybox:stable AS deploy
+FROM dhi.io/nginx:1.31-debian13 AS deploy
 
-RUN adduser -D static
-USER static
-WORKDIR /home/static
+COPY --from=build /usr/src/app/build/ /usr/share/nginx/html/
 
-COPY --from=build /usr/src/app/build/ ./
-
-LABEL org.opencontainers.image.version="1.0.0" \
+LABEL org.opencontainers.image.version="1.0.1" \
       org.opencontainers.image.title="rules" \
       org.opencontainers.image.base.name="ghcr.io/etf2l/rules:latest" \
       org.opencontainers.image.description="ETF2L rules" \
       org.opencontainers.image.source="https://github.com/ETF2L/rules"
-
-EXPOSE 11001
-
-CMD ["busybox", "httpd", "-f", "-v", "-p", "11001"]
