@@ -14,13 +14,13 @@ permissions:
 jobs:
   build:
     name: Scan current image & report results
-    runs-on: "ubuntu-24.04"
+    runs-on: "ubuntu-latest"
     steps:
       - name: Checkout code
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Run Trivy vulnerability scanner
-        uses: aquasecurity/trivy-action@0.35.0
+        uses: aquasecurity/trivy-action@0.36.0
         with:
           image-ref: "ghcr.io/etf2l/rules"
           format: 'sarif'
