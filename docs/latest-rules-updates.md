@@ -8,17 +8,40 @@ All recent rule changes will be documented on this page.
 
 ## 11.10.2026
 
-## 2.7. Player Experience
-Player experience determines both late-joiner and default mercenary eligibility. 
-A player may not late-join a team in any division below their experience and is not an eligible default mercenary in any matches in those divisions. 
+### 2.2. Maps
+
+#### 5CP (Adjusted)
+
+The time limit is set to 30 minutes (mp_timelimit 30) and the win limit to 5 rounds (mp_winlimit 5). The round timer is set to 4 minutes. The first team to reach five points, or the team with the highest amount of points once the map timer runs out, wins the map. **During the group stage, if the map score is tied once the time limit is reached both teams will draw. During playoffs teams are supposed to run infinite overtime. See section below.**
+
+##### Infinite overtime during playoffs (NEW!)
+
+The Progressive Ruleset incorporates [this plugin](https://github.com/ozfortress/Enhanced-Match-Timer/) that creates a dynamic win condition. The 5CP round win limit gets reduced to the current highest score +1 when the match timer runs out. For example, if the score is 1-2 when the map timer runs out, the win limit will be set to 3 and round continues.
+
+The specifics of the progressive ruleset playoffs will look like this:
+
+- The map timer for 5CP maps will be 25 minutes.
+- The round timer for 5CP maps will be 4 minutes.
+- If a team scores a total of 5 rounds before the end of the map timer, they win the map (winlimit 5).
+- If neither team has scored a total of 5 rounds once the map timer runs out, the round winlimit is set to the current highest round score +1. The match continues until one team reaches the new round winlimit.
+
+You can activate this ruleset by exec’ing `etf2l_6v6_5cp_prog.cfg`.
+
+
+### 3.7. Skill Contribution
+This real has been removed in its entirety as its been removed by the roster lock system instead. See rule 1.5.
+
+### 2.7. Player Experience
+Player experience determines both late-joiner and default mercenary eligibility.
+A player may not late-join a team in any division below their experience and is not an eligible default mercenary in any matches in those divisions.
 A player’s experience is defined to be the highest division from:
   - The division in which that player is rostered
   - The player's last three active seasons in any gamemode
-A previous season is active if the player played at least three matches. 
-Cups (pre-season, one-day cups, Nations Cup, etc.) do not count toward experience. 
+A previous season is active if the player played at least three matches.
+Cups (pre-season, one-day cups, Nations Cup, etc.) do not count toward experience.
 Players may not leave and rejoin rosters to circumvent the default mercenary clause before playing their first official of the current season.
 
-Playoff matches count toward the tier above. Seasons with three or more playoff matches or a Grand Final appearance count as one tier higher. 
+Playoff matches count toward the tier above. Seasons with three or more playoff matches or a Grand Final appearance count as one tier higher.
 A player’s experience in one gamemode is considered and converted using the charts below when applied to the other gamemode:
 
 ![Conversion Divisions](/img/cdiv.png)
@@ -44,13 +67,13 @@ Examples of decay:
 - Player played High eight years ago → counts as D5/Low (High decays twice and not further: High → Mid → Low).
 - Player played Premiership six years ago and Low last season → counts as D3/Mid (Premiership decays three times: Prem → D1 → D2 → D3).
 
-### 2.7.1. Dropped teams & Leaving & Rejoining rosters
-If a player has played two or fewer officials in the current season and their team has dropped from the competition, they may late-join a team based on their experience as determined purely by their last three active seasons. 
+#### 2.7.1. Dropped teams & Leaving & Rejoining rosters
+If a player has played two or fewer officials in the current season and their team has dropped from the competition, they may late-join a team based on their experience as determined purely by their last three active seasons.
 Their default mercenary eligibility is based on Rule 2.7, as outlined above, and any official matches played that season with the dropped team whichever is higher.
 
-### 2.7.2. Premiership Grand Finals Experience
-Players who have played in a Premiership Grand Final within the last two years are consided as having experience one tier above Premiership for default mercenary purposes. 
-Hence, these players are not eligible as default mercenaries in Premiership. 
+#### 2.7.2. Premiership Grand Finals Experience
+Players who have played in a Premiership Grand Final within the last two years are consided as having experience one tier above Premiership for default mercenary purposes.
+Hence, these players are not eligible as default mercenaries in Premiership.
 However these players retain their late-joiner eligibility for Premiership during this period.
 RGL Invite Grand Finals are deemed as equivalent to ETF2L Premiership Grand Finals.
 
