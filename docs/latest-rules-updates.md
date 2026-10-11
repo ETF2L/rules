@@ -6,6 +6,54 @@ title: Latest Rule Changes
 
 All recent rule changes will be documented on this page.
 
+## 11.10.2026
+
+## 2.7. Player Experience
+Player experience determines both late-joiner and default mercenary eligibility. 
+A player may not late-join a team in any division below their experience and is not an eligible default mercenary in any matches in those divisions. 
+A player’s experience is defined to be the highest division from:
+  - The division in which that player is rostered
+  - The player's last three active seasons in any gamemode
+A previous season is active if the player played at least three matches. 
+Cups (pre-season, one-day cups, Nations Cup, etc.) do not count toward experience. 
+Players may not leave and rejoin rosters to circumvent the default mercenary clause before playing their first official of the current season.
+
+Playoff matches count toward the tier above. Seasons with three or more playoff matches or a Grand Final appearance count as one tier higher. 
+A player’s experience in one gamemode is considered and converted using the charts below when applied to the other gamemode:
+
+![Conversion Divisions](/img/cdiv.png)
+![Conversion Tiers](/img/cts1.png)
+
+Examples of cross-gamemode experience:
+
+Last 3 seasons: HL Mid, 6s Low, HL Mid → counts as HL Mid and 6s Low
+Last 3 seasons: HL D2, 6s Low, HL Mid → counts as HL D2 and 6s D4/Mid
+Last 3 seasons: HL Open, 6s Mid, 6s Mid → counts as HL Low and 6s Mid
+
+For the lowest tiers (Open/Fresh/Division 6) matches played from all seasons count towards player experience.
+Experience in other leagues (RGL, ozfortress, AsiaFortress, etc.) also counts and must be disclosed in relevant situations. Failure to disclose may result in removal from a team or withdrawn merc permissions.
+**A player’s past experience from last 3 active seasons decays by one division for every two full years since the last official in the season it was earned. The lowest possible tier after decay is Low/D5**.
+Decay progression is based on the tier set of the division originally played:
+  - Premiership → D1 → D2 → D3 → D4 → D5
+  - High → Mid → Low
+  - Note: High = D1/D2, Mid = D3/D4, Low = D5, so if a player decays from D1 → D2 they would still count as High.
+
+Examples of decay:
+- Player played D1 four years ago → counts as D3/Mid (D1 decays twice: D1 → D2 → D3).
+- Player played D3 two years ago → counts as D4/Mid (D3 decays once: D3 → D4).
+- Player played High eight years ago → counts as D5/Low (High decays twice and not further: High → Mid → Low).
+- Player played Premiership six years ago and Low last season → counts as D3/Mid (Premiership decays three times: Prem → D1 → D2 → D3).
+
+### 2.7.1. Dropped teams & Leaving & Rejoining rosters
+If a player has played two or fewer officials in the current season and their team has dropped from the competition, they may late-join a team based on their experience as determined purely by their last three active seasons. 
+Their default mercenary eligibility is based on Rule 2.7, as outlined above, and any official matches played that season with the dropped team whichever is higher.
+
+### 2.7.2. Premiership Grand Finals Experience
+Players who have played in a Premiership Grand Final within the last two years are consided as having experience one tier above Premiership for default mercenary purposes. 
+Hence, these players are not eligible as default mercenaries in Premiership. 
+However these players retain their late-joiner eligibility for Premiership during this period.
+RGL Invite Grand Finals are deemed as equivalent to ETF2L Premiership Grand Finals.
+
 ## 09.06.2025
 
 ### 1.10. Team and Player Sponsorships
