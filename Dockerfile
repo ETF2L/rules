@@ -9,7 +9,7 @@ RUN npm run build
 
 FROM dhi.io/nginx:1.31-debian13 AS deploy
 
-COPY --from=build /usr/src/app/build/ /usr/share/nginx/html/
+COPY --from=build --chown=nginx:nginx /usr/src/app/build/ /usr/share/nginx/html/
 
 LABEL org.opencontainers.image.version="1.0.1" \
       org.opencontainers.image.title="rules" \
