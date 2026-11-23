@@ -1,5 +1,3 @@
-name: Build Docker image, push it and deploy
-run-name: Build Docker image, push it and deploy
 permissions:
   contents: read
   packages: write
@@ -56,19 +54,3 @@ jobs:
           tags: |
             ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
           labels: ${{ steps.docker_meta.outputs.labels }}
-  deploy:
-    runs-on: [self-hosted, linux, x64]
-    needs: [build]
-    steps:
-      - name: Deploy to ETF2L
-        uses: appleboy/ssh-action@master
-        with:
-          host: ${{ secrets.ETF2L_HOST }}
-          username: ${{ secrets.ETF2L_USER }}
-          key: ${{ secrets.ETF2L_KEY }}
-          port: ${{ secrets.ETF2L_PORT }}
-          script: |
-            echo "Log into the ghcr.io registry"
-            echo ${{ secrets.GH_ACCESS }} | docker login ghcr.io -u ${{ secrets.GH_LOGIN }} --password-stdin
-            echo "Pull and restart the container"
-            docker compose -f /home/${{ secrets.ETF2L_USER }}/docker/rules/docker-compose.yml up -d
